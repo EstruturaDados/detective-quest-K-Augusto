@@ -127,7 +127,6 @@ int main() {
     cozinha -> direita = suite;
     quarto1 -> esquerda = quarto2;
     quarto1->direita = biblioteca;
-    suite->direita = jardim;
 
     // Iniciar exploração
     explorarSalas(hall);
